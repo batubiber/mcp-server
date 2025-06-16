@@ -10,7 +10,7 @@ class VersiyonBilgisi:
     """
     major_versiyon  : int = 0
     minor_versiyon  : int = 1
-    build_versiyon  : int = 0
+    build_versiyon  : int = 1
     product_id      : int = 0
 
     def __str__(self):
@@ -22,12 +22,24 @@ class VersiyonBilgisi:
 # VERSIYON GECMISI
 
 ####################################################################
-# Versiyon : 1.0.0.0
+# Versiyon : 0.1.1.0
 # Yazanlar : Batuhan Biber
 # Tarih    : 16.06.2025
 #
 # Gelismeler:
-# - İnitial commit. 
+# - Azure OpenAI ile model entegre edildi.
+# - Firecrawl toollari ile MCP eklendi.
+# - Versiyon bilgisi eklendi.
+#
+####################################################################
+
+####################################################################
+# Versiyon : 0.1.0.0
+# Yazanlar : Batuhan Biber
+# Tarih    : 16.06.2025
+#
+# Gelismeler:
+# - İnitial commit.
 # - Versiyon bilgisi eklendi.
 #
 ####################################################################
